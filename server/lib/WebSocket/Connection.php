@@ -197,6 +197,7 @@ class Connection
 		}
 		
 		$decodedData = $this->hybi10Decode($data);		
+		$data=$decodedData;		
 		
 		if($decodedData === false)
 		{
